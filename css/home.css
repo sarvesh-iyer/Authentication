@@ -1,0 +1,44 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#first-section{
+  font-color: white;
+  border: 0;
+background-image:url('bg.jpg');
+  background-repeat: no-repeat;
+height: 700px;
+background-size:cover;
+  box-sizing: border-box;
+
+
+width: auto;
+}
+#nav{
+  opacity: 1;
+
+  margin-bottom: 1px solid black;
+  padding-top: 26px;
+    padding-bottom: 0px;
+    font-size: 1.5rem;
+
+}
+
+.nb{
+  font-size: 1.2rem;
+  color: white;
+}
+.search{
+opacity: 0.4;
+border-radius: 20px;
+border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    cursor: pointer;
+transition: 0.30s;
+}
+.search:hover{
+  width: 250px;
+
+}
